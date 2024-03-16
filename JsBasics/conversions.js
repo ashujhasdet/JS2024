@@ -73,3 +73,73 @@ let str = String(num)
 console.log("value after ="+str)//123
 console.log("type after = "+ typeof(str))//string
 console.log("----------------------------------------------------------------------")
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXX OPERATIONS IN JS XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+console.log("Simple arithemetic operations")
+let x = 1000
+let y = 200
+console.log("x = "+ x)
+console.log("y = "+y)
+console.log("Addition Result = "+(x+y))
+console.log("Subtraction Result = "+(x-y))
+
+console.log("Multiplication Result = "+(x*y))
+
+console.log("Division Result = "+(x/y))//Gives quotient
+
+console.log("Modulus Result = "+(x%y))//Gives remainder
+
+console.log("Power Result = "+(x**y))
+
+//Concatenation Operation
+//Two Strings
+let str1 = "My name is :"
+let str2 = " Aashutosh Jha" 
+console.log(str1 + str2);
+/*     
+While concatenating if first value is string then every thing in concatenation is treated as String
+If string value is present in last then all the before operation is done then concatenated as string to last string value.
+
+NOTE: It is very important to write a clean and readable code.
+(2*3+5%4) X
+((2*3)+(5%4)) is better
+*/
+
+//string + number
+console.log("a"+2)
+console.log("20"+24)
+//number + string
+console.log(20+" 24")
+console.log(20+ " Years")
+// string + number + number
+console.log("hello "+ 20 + 24)
+console.log("23"+2+2) 
+//number + number + string
+console.log(2+ 18 + "24")
+console.log("----------------------------------------");
+
+//X--------------------------COMPARISONS------------------X//
+
+// In Js it is not compulsory to have same data type of two values under comparison, Js does 
+//implict conversion and then compare and then give a true/fale result.
+//However this may lead to unpredictable result sometime
+
+//string and number comparison 
+console.log("2">8)//string--> Number ---> Then Compare --> false
+
+//comparison including null
+console.log(null>0)
+console.log(null==0)
+console.log(null>=0)//unpredictable --> here first null is converterd to 0 and then compared 
+
+console.log("-----------Strict Check----------")
+//Strict check === , it check equality and data type both
+console.log("4"==4)//true
+console.log("4"===4)//false
+
+// ALWAYS TRY TO COMPARE SIMILAR DATA TYPE 
+
+
+
+
+

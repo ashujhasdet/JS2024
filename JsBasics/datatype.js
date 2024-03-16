@@ -7,17 +7,20 @@
 //DATATYPES IN JAVASCRIPT
 /*
 PRIMITIVE DATA TYPES
-number 
+number -->number
 bigint --> for large number more the 2^53
-string 
-boolean 
-null
+string --> string 
+boolean --> true/false
+null --> empty
 undefined   
-sysmbol --> to identify any unique component
+symbol --> to identify any unique component
 
-NON PRIMITIVE DATA TYPE
+NON PRIMITIVE DATA TYPE or Reference Data type
 objects
+Arrays
 
+Note: JS Object + Browser Events --> Most Important Topic In Js
+        //Js is dynamically typed
 */
 console.log("DATA TYPES IN JS: ")
 let a = 12
@@ -40,6 +43,26 @@ console.log(x)
 console.log(name)
 
 
+console.log('\u0905')
 
 
+//Array example
+let fruits = ["Apple","Bananna", "Mango"]
+console.log(fruits)
+
+//object
+let userDetails = {
+    //key values pair
+    name:"Aashu Jha",
+    age :26,
+    fieldOfStudy: "Computer Science and Engineering",
+
+}
+console.log(userDetails)
+
+//Function
+//function(){}
+let add = function(){
+    console.log("Add")
+}
 
